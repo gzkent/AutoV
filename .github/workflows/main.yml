@@ -21,7 +21,7 @@ jobs:
     - name: Commit and push
       run: |
         git config --global user.name "gzkent"
-        git config --global user.email "fj4090@qq.com"
+        git config --global user.email "fj4090@yeah.net"
         git add data/V2.txt history/V2_$(date +%Y%m%d%H%M).txt
         git commit -m "Update V2.txt and add to history"
         git push -f
